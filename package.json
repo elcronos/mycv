@@ -1,0 +1,18 @@
+{
+  "name": "mycv",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "eventie": "^1.0.6",
+    "jquery": "^2.2.2",
+    "meteor-node-stubs": "^0.2.3",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-google-maps": "^4.11.0",
+    "react-mounter": "^1.2.0",
+    "waypoints": "^4.0.0",
+    "wolfy87-eventemitter": "^5.1.0"
+  }
+}
