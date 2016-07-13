@@ -1,5 +1,4 @@
 import React from 'react'
-import Meteor from 'meteor/meteor'
 import {GoogleMapLoader, GoogleMap, Marker} from "react-google-maps";
 
 export default class Contacts extends React.Component{

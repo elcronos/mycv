@@ -8,9 +8,19 @@ import Footer from '/imports/ui/components/Footer'
 import Contacts from '/imports/ui/pages/Contacts'
 import Feedback from '/imports/ui/pages/Feedback'
 import Portfolio from '/imports/ui/pages/Portfolio'
+import NotFound from '/imports/ui/components/NotFound'
 import MainLayout from '/imports/ui/layouts/MainLayout'
 
 //Public Routes
+FlowRouter.notFound = {
+    action: function() {
+      mount(MainLayout,{
+        nav: () => (<Header />),
+        content: () => (<NotFound />),
+        footer: () => (<Footer />)
+      })
+    }
+}
 //Home
 FlowRouter.route('/',{
   action(){

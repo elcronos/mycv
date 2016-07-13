@@ -1,5 +1,4 @@
 import React from 'react'
-import Meteor from 'meteor/meteor'
 
 export default Resume = () => (
 <div className="content-wrap">
