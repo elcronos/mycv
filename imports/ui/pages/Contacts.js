@@ -7,21 +7,64 @@ export default class Contacts extends React.Component{
     super();
   }
   componentDidMount(){
-    var myLatlng = new google.maps.LatLng(-31.94122,115.83555000000001);
-    var mapOptions = {
-      zoom: 15,
-      center: myLatlng
+    if (!$('#google-map').length) {
+      return false;
     }
-    var map = new google.maps.Map(document.getElementById("gmap"), mapOptions);
 
-    var marker = new google.maps.Marker({
-        position: myLatlng,
-        defaultAnimation: 2,
-        title:"15 Keer St, West Leederville, WA, Australia"
-    });
+    // Create an array of styles.
+    var styles = [
+      {
+        stylers: [
+          {saturation: -90}
+        ]
+      }, {
+        featureType: "road",
+        elementType: "geometry",
+        stylers: [
+          {lightness: 100},
+          {visibility: "simplified"}
+        ]
+      }, {
+        featureType: "road",
+        elementType: "labels",
+        stylers: [
+          {visibility: "off"}
+        ]
+      }
+    ];
 
-    // To add the marker to the map, call setMap();
-    marker.setMap(map);
+    // Create a new StyledMapType object, passing it the array of styles,
+    // as well as the name to be displayed on the map type control.
+    var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
+
+    // Create a map object, and include the MapTypeId to add
+    // to the map type control.
+    var $latlng = new google.maps.LatLng(-31.94122,115.83555000000001),
+      $mapOptions = {
+        zoom: 13,
+        center: $latlng,
+        panControl: false,
+        zoomControl: true,
+        scaleControl: false,
+        mapTypeControl: false,
+        scrollwheel: false,
+        mapTypeControlOptions: {
+          mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+        }
+      };
+      var map = new google.maps.Map(document.getElementById('google-map'), $mapOptions);
+
+      google.maps.event.trigger(map, 'resize');
+
+      //Associate the styled map with the MapTypeId and set it to display.
+      map.mapTypes.set('map_style', styledMap);
+      map.setMapTypeId('map_style');
+
+      var marker = new google.maps.Marker({
+        position: $latlng,
+        map: map,
+        title: ""
+      });
   }
   render(){
     return(
@@ -77,10 +120,14 @@ export default class Contacts extends React.Component{
 
             <section id="contacts-map" className="inner-section">
                <div className="container-fluid nopadding">
-                  <div id="gmap" className="map-gic"/>
+                  <div className="wow fadeInDown" data-wow-delay="0.8s" data-wow-offset="10">
+                     <div id="gm-panel">
+                        <div id="google-map" className="bigmap"></div>
+                     </div>
+                  </div>
                </div>
                <div className="dividewhite8"></div>
-            </section>
+           </section>
 
          </div>
 
