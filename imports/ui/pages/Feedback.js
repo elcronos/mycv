@@ -34,9 +34,7 @@ export default class Feedback extends React.Component{
                <div className="container-fluid nopadding wow fadeInRight" data-wow-delay="0.4s" data-wow-offset="10">
                   <h2 className="font-accident-two-normal uppercase">Feedback</h2>
                   <h5 className="font-accident-one-bold uppercase subtitle">Hard-working person on the way to the success...</h5>
-                  <p className="small fontcolor-medium">
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id metus purus. Ut vulputate, est vel tincidunt mattis, orci neque iaculis lectus, et interdum quam felis vel tortor. Fusce ultrices dui quis nunc dignissim faucibus. Ut ac odio quis nibh viverra fringilla ac id nisi. Suspendisse tincidunt augue quis ligula cursus, non efficitur ligula faucibus. Mauris id neque maximus, tincidunt metus et, sodales nulla.
-                  </p>
+                  
                </div>
             </section>
 

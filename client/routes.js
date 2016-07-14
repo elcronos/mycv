@@ -10,6 +10,7 @@ import Feedback from '/imports/ui/pages/Feedback'
 import Portfolio from '/imports/ui/pages/Portfolio'
 import NotFound from '/imports/ui/components/NotFound'
 import MainLayout from '/imports/ui/layouts/MainLayout'
+import ComingSoon from '/imports/ui/components/ComingSoon'
 
 //Public Routes
 FlowRouter.notFound = {
@@ -81,7 +82,8 @@ FlowRouter.route('/blog',{
   action(){
     mount(MainLayout,{
       nav: () => (<Header />),
-      content: () => (<Blog />),
+      content: () => (<ComingSoon/>),
+      //content: () => (<Blog />),
       footer: () => (<Footer />)
     })
   }

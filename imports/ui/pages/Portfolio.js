@@ -72,31 +72,21 @@ export default class Portfolio extends React.Component{
                      <div className="col-lg-3 col-sm-6 col-xs-12 count">
                         <div>
                            <div className="count-icon">
-                              <i className="flaticon-photo246"></i>
+                              <i className="fa fa-globe fa-3x"></i>
                            </div>
-                           <span className=".integers digit font-accident-two-normal">5</span>
+                           <span className=".integers digit font-accident-two-normal">6</span>
 
-                           <div className="count-text font-accident-one-bold">Websites / SEO</div>
+                           <div className="count-text font-accident-one-bold">Web</div>
                         </div>
                      </div>
                      <div className="col-lg-3 col-sm-6 col-xs-12 count">
                         <div>
                            <div className="count-icon">
-                              <i className="fa fa-desktop fa-2x"></i>
-                           </div>
-                           <span className=".integers digit font-accident-two-normal">1</span>
-
-                           <div className="count-text font-accident-one-bold">Desktop Apps</div>
-                        </div>
-                     </div>
-                     <div className="col-lg-3 col-sm-6 col-xs-12 count">
-                        <div>
-                           <div className="count-icon">
-                              <i className="flaticon-stats48"></i>
+                              <i className="fa fa-mobile fa-2x"></i>
                            </div>
                            <span className=".integers digit font-accident-two-normal">2</span>
 
-                           <div className="count-text font-accident-one-bold">SEO</div>
+                           <div className="count-text font-accident-one-bold">Mobile</div>
                         </div>
                      </div>
                      <div className="col-lg-3 col-sm-6 col-xs-12 count">
@@ -104,9 +94,19 @@ export default class Portfolio extends React.Component{
                            <div className="count-icon">
                               <i className="fa fa-space-shuttle fa-3x"></i>
                            </div>
-                           <span className=".integers digit font-accident-two-normal">2</span>
+                           <span className=".integers digit font-accident-two-normal">6</span>
 
-                           <div className="count-text font-accident-one-bold">Web & Mobile Apps</div>
+                           <div className="count-text font-accident-one-bold">MeteorJS</div>
+                        </div>
+                     </div>
+                     <div className="col-lg-3 col-sm-6 col-xs-12 count">
+                        <div>
+                           <div className="count-icon">
+                              <i className="fa fa-coffee fa-3x"></i>
+                           </div>
+                           <span className=".integers digit font-accident-two-normal">3</span>
+
+                           <div className="count-text font-accident-one-bold">Java</div>
                         </div>
                      </div>
                   </div>
@@ -121,8 +121,12 @@ export default class Portfolio extends React.Component{
                   <ul>
                      <li><a href="#cat1" data-filter="*">All</a></li>
                      <li><a href="#cat2" data-filter=".web">Web</a></li>
-                     <li><a href="#cat3" data-filter=".mobile">Mobile Apps</a></li>
-                     <li><a href="#cat4" data-filter=".others">Others</a></li>
+                     <li><a href="#cat3" data-filter=".mobile">Mobile</a></li>
+                     <li><a href="#cat4" data-filter=".meteor">MeteorJS</a></li>
+                     <li><a href="#cat5" data-filter=".blaze">Blaze</a></li>
+                     <li><a href="#cat6" data-filter=".react">React</a></li>
+                     <li><a href="#cat7" data-filter=".java">Java</a></li>
+                     <li><a href="#cat8" data-filter=".others">Others</a></li>
                   </ul>
                </div>
 
@@ -132,7 +136,7 @@ export default class Portfolio extends React.Component{
 
                   <div id="posts" className="row popup-container">
 
-                     <div className="grid-item web col-sm-12">
+                     <div className="grid-item web meteor react col-sm-12">
                         <div className="item-wrap">
                            <figure className="effect-goliath">
                               <div className="popup-call">
@@ -141,31 +145,34 @@ export default class Portfolio extends React.Component{
                               <img src="images/portfolio/00.jpg" className="img-responsive'" alt="img11"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>Music <span>Sounds</span></h3>
-                                    <p>#web #seo </p>
+                                    <h3>My Personal<span>CV</span></h3>
+                                    <p>This is my personal web page and the most recent work that I have done using MeteorJS, React and more ...</p>
+                                    <p>#web #meteorjs #react </p>
                                  </div>
                               </figcaption>
                            </figure>
                         </div>
                      </div>
 
-                     <div className="grid-item web mobile col-lg-3 col-md-4 col-sm-6">
+                     <div className="grid-item meteor react mobile col-lg-3 col-md-4 col-sm-6">
                         <div className="item-wrap">
                            <figure className="effect-goliath">
                               <div className="popup-call">
                                  <a href="images/portfolio/01.jpg" className="gallery-item"><i className="flaticon-arrows-4"></i></a>
                               </div>
-                              <img src="images/portfolio/thumbs/01.jpg" className="img-responsive'" alt="img11"/>
+                              <img src="images/portfolio/thumbs/01.jpg" className="img-responsive'"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>Music <span>Sounds</span></h3>
-                                    <p>#web #seo </p>
+                                    <h3>Langex</h3>
+                                    <br/>
+                                    <p>iOS App for conversation exchange. This app was built using MeteorJS, React, MongoDB and Cordova. It will be soon on the App Store</p>
+                                    <p>#meteorjs #ios #react #mobile</p>
                                  </div>
                               </figcaption>
                            </figure>
                         </div>
                      </div>
-                     <div className="grid-item grid-sizer mobile col-lg-3 col-md-4 col-sm-6">
+                     <div className="grid-item grid-sizer meteor mobile react col-lg-3 col-md-4 col-sm-6">
                         <div className="item-wrap">
                            <figure className="effect-goliath">
                               <div className="popup-call">
@@ -174,14 +181,16 @@ export default class Portfolio extends React.Component{
                               <img src="images/portfolio/thumbs/02.jpg" className="img-responsive" alt="img03"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>Fire <span>Burns</span></h3>
-                                    <p>#web #seo</p>
+                                   <h3>Langex</h3>
+                                   <br/>
+                                   <p>Android App for conversation exchange. This app was built using MeteorJS, React, MongoDB and Cordova. It will be soon on the Play Store</p>
+                                   <p>#meteorjs #android #react #mobile</p>
                                  </div>
                               </figcaption>
                            </figure>
                         </div>
                      </div>
-                     <div className="grid-item seo col-lg-3 col-md-4 col-sm-6">
+                     <div className="grid-item web meteor react col-lg-3 col-md-4 col-sm-6">
                         <div className="item-wrap">
                            <figure className="effect-goliath">
                               <div className="popup-call">
@@ -190,14 +199,15 @@ export default class Portfolio extends React.Component{
                               <img src="images/portfolio/thumbs/03.jpg" className="img-responsive" alt="img11"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>Ice <span>Cold</span></h3>
-                                    <p>#marketing</p>
+                                    <h3>Langex <span> Web</span></h3>
+                                    <p>Web version of Langex(In development stage)</p>
+                                    <p>#web #meteorjs #react</p>
                                  </div>
                               </figcaption>
                            </figure>
                         </div>
                      </div>
-                     <div className="grid-item others col-lg-3 col-md-4 col-sm-6">
+                     <div className="grid-item others meteor blaze col-lg-3 col-md-4 col-sm-6">
                         <div className="item-wrap">
                            <figure className="effect-goliath">
                               <div className="popup-call">
@@ -206,14 +216,17 @@ export default class Portfolio extends React.Component{
                               <img src="images/portfolio/thumbs/04.jpg" className="img-responsive" alt="img03"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>Everybody <span>Lies</span></h3>
-                                    <p>#marketing</p>
+                                    <h3>Julian Converter</h3>
+                                    <p>
+                                      This app is a Julian/Gregorian calendar converter app for Windows and OS X. Built with MeteorJS, Blaze and Electron.
+                                    </p>
+                                    <p>#DesktopApp #meteor #blaze</p>
                                  </div>
                               </figcaption>
                            </figure>
                         </div>
                      </div>
-                     <div className="grid-item web others col-lg-3 col-md-4 col-sm-6">
+                     <div className="grid-item web meteor blaze col-lg-3 col-md-4 col-sm-6">
                         <div className="item-wrap">
                            <figure className="effect-goliath">
                               <div className="popup-call">
@@ -222,62 +235,77 @@ export default class Portfolio extends React.Component{
                               <img src="images/portfolio/thumbs/05.jpg" className="img-responsive" alt="img11"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>Music <span>Sounds</span></h3>
-                                    <p>#web #seo </p>
+                                    <h3>Belinda Pinskier Essay Tutoring</h3>
+                                    <p>
+                                      Personal web site for Belinda Pinskier Gamsat Essay Tutoring
+                                    </p>
+                                    <p>#web #meteor #blaze </p>
                                  </div>
                               </figcaption>
                            </figure>
                         </div>
                      </div>
-                     <div className="grid-item others col-lg-3 col-md-4 col-sm-6">
+                     <div className="grid-item web java col-lg-3 col-md-4 col-sm-6">
                         <div className="item-wrap">
                            <figure className="effect-goliath">
                               <div className="popup-call">
                                  <a href="images/portfolio/06.jpg" className="gallery-item"><i className="flaticon-arrows-4"></i></a>
                               </div>
-                              <img src="images/portfolio/thumbs/06.jpg" className="img-responsive" alt="img03"/>
+                              <img src="images/portfolio/thumbs/06.jpg" className="img-responsive" alt="img11"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>Fire <span>Burns</span></h3>
-                                    <p>#web #seo</p>
+                                    <h3>SGIPVIS Agile Software Management System for Catholic University of Colombia</h3>
+                                    <p>
+                                      Design and Implementation of the system SGIPVIS Agile Software Management System. Built with Java and GRAILS
+                                    </p>
+                                    <p>#web #java #agile </p>
                                  </div>
                               </figcaption>
                            </figure>
                         </div>
                      </div>
-                     <div className="grid-item web col-lg-3 col-md-4 col-sm-6">
+                     <div className="grid-item web java col-lg-3 col-md-4 col-sm-6">
                         <div className="item-wrap">
                            <figure className="effect-goliath">
                               <div className="popup-call">
                                  <a href="images/portfolio/07.jpg" className="gallery-item"><i className="flaticon-arrows-4"></i></a>
                               </div>
-                              <img src="images/portfolio/thumbs/07.jpg" className="img-responsive" alt="img03"/>
+                              <img src="images/portfolio/thumbs/07.jpg" className="img-responsive" alt="img11"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>Fire <span>Burns</span></h3>
-                                    <p>#web #seo</p>
+                                   <div className="fig-description">
+                                      <h3>SGIPVIS Security Management System for Catholic University of Colombia</h3>
+                                      <p>
+                                        Design and Implementation of the system SGIPVIS. Built with Java and GRAILS
+                                      </p>
+                                      <p>#web #java #agile </p>
+                                   </div>
                                  </div>
                               </figcaption>
                            </figure>
                         </div>
                      </div>
-                     <div className="grid-item seo col-lg-3 col-md-4 col-sm-6">
+                     <div className="grid-item web java col-lg-3 col-md-4 col-sm-6">
                         <div className="item-wrap">
                            <figure className="effect-goliath">
                               <div className="popup-call">
                                  <a href="images/portfolio/08.jpg" className="gallery-item"><i className="flaticon-arrows-4"></i></a>
                               </div>
-                              <img src="images/portfolio/thumbs/08.jpg" className="img-responsive" alt="img03"/>
+                              <img src="images/portfolio/thumbs/08.jpg" className="img-responsive" alt="img11"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>Fire <span>Burns</span></h3>
-                                    <p>#web #seo</p>
+                                   <div className="fig-description">
+                                      <h3>SGIPVIS Project for Catholic University of Colombia</h3>
+                                      <p>
+                                        Design and Implementation of the system SGIPVIS. Built with Java and GRAILS
+                                      </p>
+                                      <p>#web #java #agile </p>
+                                   </div>
                                  </div>
                               </figcaption>
                            </figure>
                         </div>
                      </div>
-
                   </div>
                </div>
 

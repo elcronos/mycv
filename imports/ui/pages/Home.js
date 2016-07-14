@@ -146,6 +146,7 @@ export default Home = () => (
            <div className="col-md-8 circle-skills nopadding ui-block-color03">
               <div className="padding-50 wow fadeInLeft" data-wow-delay="0.6s" data-wow-offset="5">
                  <h3 className="font-accident-two-normal uppercase">My Professional skills</h3>
+                 <br/>
                  <div className="dividewhite1"></div>
                  <div className="row">
                     <div className="col-sm-4 nopadding">
@@ -158,6 +159,7 @@ export default Home = () => (
                              <p className="font-regular-normal">
                                 A prototype is an early sample, model, or release of a product built to test ...
                              </p>
+                             <br/>
                              <a href="https://en.wikipedia.org/wiki/Prototype" className="btn btn-wh-trans btn-xs">Learn More</a>
                           </div>
                        </div>
@@ -172,6 +174,7 @@ export default Home = () => (
                              <p className="font-regular-normal">
                                 Design is the creation of a plan or convention for the construction of an object ...
                              </p>
+                             <br/>
                              <a href="https://en.wikipedia.org/wiki/Software_design" className="btn btn-wh-trans btn-xs">Learn More</a>
                           </div>
                        </div>
@@ -186,13 +189,14 @@ export default Home = () => (
                              <p className="font-regular-normal">
                                 Software development is the process of computer programming ...
                              </p>
+                             <br/>
                              <a href="https://en.wikipedia.org/wiki/Software_development" className="btn btn-wh-trans btn-xs">Learn More</a>
                           </div>
                        </div>
                     </div>
                  </div>
               </div>
-              <br/><br/>
+              <br/>
            </div>
 
         </div>

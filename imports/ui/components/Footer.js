@@ -1,32 +1,24 @@
 import React from 'react'
-import Meteor from 'meteor/meteor'
 
 export default Footer = () => (
 <footer className="padding-50 ui-bg-color02">
    <div className="container-fluid nopadding">
       <div className="row wow fadeInDown" data-wow-delay=".2s" data-wow-offset="10">
-         <div className="col-md-3">
+         <div className="col-md-4">
             <h4 className="font-accident-two-normal uppercase">Camilo Pestana</h4>
             <p className="inline-block">
                Quality Web Development. Part-time or Fulltime.
             </p>
             <div className="divider-dynamic"></div>
          </div>
-         <div className="col-md-3 cv-link">
+         <div className="col-md-4 cv-link">
             <h4 className="font-accident-two-normal uppercase">Download cv</h4>
             <div className="dividewhite1"></div>
             <a href="#!"><i className="fa fa-long-arrow-down" aria-hidden="true"></i>English</a>
             <a href="#!"><i className="fa fa-long-arrow-down" aria-hidden="true"></i>Spanish</a>
             <div className="divider-dynamic"></div>
          </div>
-         <div className="col-md-3">
-            <h4 className="font-accident-two-normal uppercase">Newsletter</h4>
-            <div className="dividewhite1"></div>
-            <input className="newsletter-email" type="email" required="" name="ne" placeholder="Your Email"/>
-
-            <div className="divider-dynamic"></div>
-         </div>
-         <div className="col-md-3">
+         <div className="col-md-4">
             <h4 className="font-accident-two-normal uppercase">Follow me</h4>
             <div className="follow">
                <ul className="list-inline social">

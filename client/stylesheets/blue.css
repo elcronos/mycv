@@ -282,6 +282,11 @@
 .bg-color32 {
   background-color: #070707 !important; }
 
+.text-centered {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
 /*------------------------------------------------------------------
 [Typography]
 */

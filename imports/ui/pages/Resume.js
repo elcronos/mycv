@@ -95,7 +95,7 @@ export default Resume = () => (
                <h5 className="font-accident-one-bold uppercase subtitle">Working hard and making the success</h5>
                <div className="dividewhite1"></div>
                <p className="medium fontcolor-medium">
-                  Fullstack developer with working experience implementing different frameworks and programming languages such as <strong>Java EE</strong> (Primefaces, Spring, Vaadin), Grails and  Python. Proficient in database management system: <strong>Mongodb</strong>Oracle, MySQL, SQL Server and SQLite as well as front-end skills and technologies like JavaScript, CSS and HTML5, <strong>ReactJS</strong>, ReactNative, Handlebars, <strong>MeteorJS</strong>, Bootstrap 3, JQUERY, Git, SVN, Jira, Confluence, Gradle, Maven , REST Services, JSON, XML.  Methodologies SCRUM, Agile.
+                  Fullstack developer with working experience implementing different frameworks and programming languages such as <strong>Java EE</strong> (Primefaces, Spring, Vaadin), Grails and  Python. Proficient in database management system: <strong>Mongodb</strong>, Oracle, MySQL, SQL Server and SQLite as well as front-end skills and technologies like JavaScript, CSS and HTML5, <strong>ReactJS</strong>, ReactNative, Handlebars, <strong>MeteorJS</strong>, Bootstrap 3, JQUERY, Git, SVN, Jira, Confluence, Gradle, Maven , REST Services, JSON, XML.  Methodologies SCRUM, Agile.
                </p>
             </div>
 
