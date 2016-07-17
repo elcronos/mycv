@@ -39,7 +39,7 @@
             return;
         }
         // Comment it to disable Ajax Page load
-        $(document).pjax('a', '.content-wrap', {fragment: '.content-wrap'});
+        //$(document).pjax('a', '.content-wrap', {fragment: '.content-wrap'});
 
         $(document).on('pjax:beforeReplace', function() {
             $('.content-wrap').css('opacity', '0.1');

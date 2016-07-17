@@ -14,7 +14,7 @@ export default Home = () => (
                     <div className="col-md-12 nopadding">
                        <h3 className="font-accident-two-normal uppercase">About me</h3>
                        <div className="quote">
-                          <h5 className="font-accident-one-bold uppercase subtitle">Hard-working person on the way to the success...</h5>
+                          <h5 className="font-accident-one-bold uppercase subtitle">I am a hard-working person willing to do whatever it takes ...</h5>
                           <div className="dividewhite1"></div>
                           <div className="dividewhite2"></div>
                        </div>
@@ -28,7 +28,7 @@ export default Home = () => (
                           <div className="col-sm-11 col-md-9">
                              <h5 className="font-accident-one-bold uppercase">Creative</h5>
                              <p className="medium">
-                                Thinking outside of the box.
+                                I think outside of the box in order to resolve problems
                              </p>
                           </div>
                        </div>
@@ -40,7 +40,7 @@ export default Home = () => (
                           <div className="col-sm-11 col-md-9">
                              <h5 className="font-accident-one-bold uppercase">Motivated</h5>
                              <p className="medium">
-                                Good demeanor in face of challenges
+                                I am commited to new challenges
                              </p>
                           </div>
                        </div>
@@ -81,7 +81,7 @@ export default Home = () => (
                     </div>
                     <div className="fullwidth box">
                        <div className="one"><p className="medium uppercase">Phone:</p></div>
-                       <div className="two"><p className="medium">+67 451353704</p></div>
+                       <div className="two"><p className="medium">+61 451353704</p></div>
                     </div>
                     <div className="fullwidth box">
                        <div className="one"><p className="medium uppercase">Email:</p></div>

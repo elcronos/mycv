@@ -92,7 +92,7 @@ export default class Contacts extends React.Component{
                         </div>
                         <div className="row">
                            <div className="col-sm-2"><span className="font-accident-two-bold uppercase">Phone:</span></div>
-                           <div className="col-sm-10"><p className="medium">1 234 567-64-35</p></div>
+                           <div className="col-sm-10"><p className="medium">+61 451353704</p></div>
                         </div>
                         <div className="row">
                            <div className="col-sm-2"><span className="font-accident-two-bold uppercase">Skype:</span></div>

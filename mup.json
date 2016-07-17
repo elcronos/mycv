@@ -1,0 +1,17 @@
+{
+  "servers": [{
+    "host": "188.166.233.139",
+    "username": "root",
+    "password": "elcronos"
+  }],
+  "setupMongo": false,
+  "appName": "mycv",
+  "app": "/Users/camilo/Desktop/CV/mycv",
+  "env":{
+    "PORT": 80,
+    "ROOT_URL": "http://188.166.233.139",
+    "UPLOAD_DIR": "/opt/mycv/uploads"
+  },
+  "deployCheckWaitTime": 3000,
+  "enableUploadProgressBar": true
+}

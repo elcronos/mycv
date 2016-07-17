@@ -7,15 +7,14 @@ export default Footer = () => (
          <div className="col-md-4">
             <h4 className="font-accident-two-normal uppercase">Camilo Pestana</h4>
             <p className="inline-block">
-               Quality Web Development. Part-time or Fulltime.
+               Eficient web development available anytime
             </p>
             <div className="divider-dynamic"></div>
          </div>
          <div className="col-md-4 cv-link">
             <h4 className="font-accident-two-normal uppercase">Download cv</h4>
             <div className="dividewhite1"></div>
-            <a href="#!"><i className="fa fa-long-arrow-down" aria-hidden="true"></i>English</a>
-            <a href="#!"><i className="fa fa-long-arrow-down" aria-hidden="true"></i>Spanish</a>
+            <a href="files/CamiloPestana-Resume.pdf" download><i className="fa fa-long-arrow-down" aria-hidden="true"></i>English</a>
             <div className="divider-dynamic"></div>
          </div>
          <div className="col-md-4">

@@ -254,9 +254,9 @@ export default class Portfolio extends React.Component{
                               <img src="images/portfolio/thumbs/06.jpg" className="img-responsive" alt="img11"/>
                               <figcaption>
                                  <div className="fig-description">
-                                    <h3>SGIPVIS Agile Software Management System for Catholic University of Colombia</h3>
+                                    <h3>SGIPVIS Agile Software Management System</h3>
                                     <p>
-                                      Design and Implementation of the system SGIPVIS Agile Software Management System. Built with Java and GRAILS
+                                      Design and Implementation of the system SGIPVIS Agile Software Management System for a Catholic University of Colombia. Built with Java and GRAILS
                                     </p>
                                     <p>#web #java #agile </p>
                                  </div>
@@ -274,9 +274,9 @@ export default class Portfolio extends React.Component{
                               <figcaption>
                                  <div className="fig-description">
                                    <div className="fig-description">
-                                      <h3>SGIPVIS Security Management System for Catholic University of Colombia</h3>
+                                      <h3>SGIPVIS Security Management System</h3>
                                       <p>
-                                        Design and Implementation of the system SGIPVIS. Built with Java and GRAILS
+                                        Design and Implementation of the system SGIPVIS for a Catholic University of Colombia research. Built with Java and GRAILS
                                       </p>
                                       <p>#web #java #agile </p>
                                    </div>
@@ -295,9 +295,9 @@ export default class Portfolio extends React.Component{
                               <figcaption>
                                  <div className="fig-description">
                                    <div className="fig-description">
-                                      <h3>SGIPVIS Project for Catholic University of Colombia</h3>
+                                      <h3>SGIPVIS Project</h3>
                                       <p>
-                                        Design and Implementation of the system SGIPVIS. Built with Java and GRAILS
+                                        Design and Implementation of the system SGIPVIS at Catholic University of Colombia. Built with Java and GRAILS
                                       </p>
                                       <p>#web #java #agile </p>
                                    </div>

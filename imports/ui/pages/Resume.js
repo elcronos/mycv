@@ -9,7 +9,7 @@ export default Resume = () => (
             <h2 className="font-accident-two-normal uppercase">Resume</h2>
             <h5 className="font-accident-one-bold uppercase subtitle">Hard-working person on the way to the success...</h5>
             <p className="medium fontcolor-medium">
-              Skilled web developer backed by solid credentials, strong technical skills and a four-year history of exemplary-rated performance. I have excellent prototyping & coding skills, as well as an ability to convert client requirements into exciting online applications.
+              I am a skilled web developer with strong dedication to the job. I am able to adapt my skills to a wide variety of tasks and client requirements.  I use my excellent agile and coding skills to ensure that every task and project is completed to the client satisfaction.
             </p>
             <div className="dividewhite2"></div>
          </div>
@@ -48,7 +48,7 @@ export default Resume = () => (
                         <div className="dividewhite1"></div>
                         <h5 className="font-accident-one-bold uppercase">Self-motivated</h5>
                         <p className="medium">
-                          I often start projects on my own without direction from others, because I enjoy it. I always have self-discipline and willingness to try new things.
+                          I have the initiative to start new projects in order to improve my skills
                         </p>
                      </div>
                   </div>
@@ -61,7 +61,7 @@ export default Resume = () => (
                         <div className="dividewhite1"></div>
                         <h5 className="font-accident-one-bold uppercase">Lifelong learning</h5>
                         <p className="medium">
-                           Always willing to learn new things and handle new challenges ¡¡¡
+                           Commited to improving my skills and knowledge in order to best serve my profession
                         </p>
                      </div>
                   </div>
@@ -154,7 +154,7 @@ export default Resume = () => (
                      <p className="timeline-time fontcolor-invert"><i className="glyphicon glyphicon-time"></i> Jun 2015 - May 2016</p>
                      <div className="timeline-photo timeline-bg04-01"></div>
                      <div className="timeline-heading">
-                        <h4 className="font-accident-two-normal uppercase">Globant, Bogota / Dallas</h4>
+                        <h4 className="font-accident-two-normal uppercase">Globant, Bogota</h4>
                         <h6 className="uppercase">Software Developer sSr</h6>
                      </div>
                   </div>

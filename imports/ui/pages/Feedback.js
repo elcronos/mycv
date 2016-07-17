@@ -30,11 +30,11 @@ export default class Feedback extends React.Component{
     return(
       <div className="content-wrap">
          <div id="feedback" className="inner-content">
-            <section id="page-title" className="inner-section">
+            <section id="page-title" className="inner-section text-centered">
                <div className="container-fluid nopadding wow fadeInRight" data-wow-delay="0.4s" data-wow-offset="10">
                   <h2 className="font-accident-two-normal uppercase">Feedback</h2>
                   <h5 className="font-accident-one-bold uppercase subtitle">Hard-working person on the way to the success...</h5>
-                  
+
                </div>
             </section>
 
