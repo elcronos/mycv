@@ -81,7 +81,7 @@ export default Home = () => (
                     </div>
                     <div className="fullwidth box">
                        <div className="one"><p className="medium uppercase">Phone:</p></div>
-                       <div className="two"><p className="medium">+61 451353704</p></div>
+                       <div className="two"><p className="medium">+61 499883401</p></div>
                     </div>
                     <div className="fullwidth box">
                        <div className="one"><p className="medium uppercase">Email:</p></div>

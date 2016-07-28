@@ -25,6 +25,8 @@ es5-shim@4.5.13
 fastclick@1.0.12
 fortawesome:fontawesome@4.5.0
 fourseven:scss@3.3.3_3
+gadicohen:robots-txt@0.0.10
+gadicohen:sitemaps@0.0.24
 gentlenode:spiderable-ssl@0.1.8
 geojson-utils@1.0.9
 hot-code-push@1.0.4
